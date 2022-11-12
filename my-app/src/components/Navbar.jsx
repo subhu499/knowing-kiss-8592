@@ -85,9 +85,9 @@ const handleClick6 = () => {
 
   return (
     <nav className="navbar-container">
-      <div className="navbar__company-logo"  onClick={handleClick6}> <img style={{width:100,height:50}} src="https://images-eu.ssl-images-amazon.com/images/I/41u5vbuEwtL.jpg" alt="" /></div>
+      <div className="navbar__company-logo"  onClick={handleClick6}>IDEAKART</div>
       <div className="navbar__btn-container">
-        <input className="inPut" placeholder="Search" />
+        <input className="inPut" placeholder="Search"/>
         <button className="sBtn">Search</button>
       <h4
           className="navbar__login-signup-logout-btn"
