@@ -32,7 +32,7 @@ const Homeitem = ({item}) => {
 
     <p>{title}</p>
     </Title>
-    <Price className="price-div">
+    <Price className="price-div" style={{color:"teal",fontWeight:"bold"}}>
       <p>{price}</p>
   
     </Price>

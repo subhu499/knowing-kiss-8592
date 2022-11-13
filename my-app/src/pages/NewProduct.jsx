@@ -6,7 +6,7 @@ const NewProduct = () => {
 
 
   const postData=async()=>{
-    let response= await fetch(`http://localhost:3004/product`,{
+    let response= await fetch(`http://localhost:8080/product`,{
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({...productData})
@@ -47,7 +47,7 @@ const handleChange=(e)=>{
       <div>
       <label>File</label>
       <br />
-      <input style={{marginBottom:"20px"}} type="file" required name="image" onChange={handleChange}/>
+      <input style={{marginBottom:"20px"}}  required name="image" onChange={handleChange}/>
       </div>
 
       <div>
@@ -73,7 +73,7 @@ const handleChange=(e)=>{
         <option value="Other">Other</option>
       </Select>
       </div>
-      <Input int1 type="submit" />
+      <button int1 type="submit" > submit</button>
       </form>
     </Main>
   )

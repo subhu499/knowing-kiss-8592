@@ -79,7 +79,7 @@ const Productdetail = () => {
   const { id } = useParams();
   const [data, setData] = useState([]);
   const getData = async () => {
-    let res = await fetch(`http://localhost:8080/data/${id}`);
+    let res = await fetch(`http://localhost:3000/data/${id}`);
     let resdata = await res.json();
 
     console.log(resdata);

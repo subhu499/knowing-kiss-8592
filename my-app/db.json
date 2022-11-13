@@ -1,4 +1,35 @@
-
+{
+  "product": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "productname": "ssssssssssssss",
+      "productex": "sssssssssssssssss",
+      "image": "C:\\fakepath\\pic.jpg.webp",
+      "network": "Offline",
+      "plateform": "SnapDeal",
+      "id": 2
+    },
+    {
+      "productname": "logo",
+      "productex": "logo",
+      "image": "C:\\fakepath\\Pink Minimal Typography Logo .png",
+      "network": "Offline",
+      "plateform": "Amazon",
+      "id": 3
+    },
+    {
+      "image": "https://www.canva.com/design/DAFRXdVw5pU/vvvz9VigbjaIiHRrRPAY8A/edit?utm_content=DAFRXdVw5pU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "productname": "logo",
+      "productex": "logo",
+      "network": "Offline",
+      "plateform": "Flipkart",
+      "id": 4
+    },
+    
    [
     {
       "id": 1,
@@ -126,3 +157,16 @@
     
   ]
   
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

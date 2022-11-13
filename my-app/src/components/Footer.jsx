@@ -13,11 +13,11 @@ export  const Footer = () => {
      <ul>
      <li>
            
-           <Link className={styles.footer} to = '/'> About</Link>
+           <Link className={styles.footer} to = '/About'> About</Link>
      </li>
      <li>
            
-           <Link className={styles.footer} to = '/'> Contact</Link>
+           <Link className={styles.footer} to = '/contact'> Contact</Link>
      </li>
      <li>  
            <Link className={styles.footer} to = '/Search'> Search</Link>

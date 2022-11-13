@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     if (/login$/.test(window.location.href)) setButtonContent("Sign Up");
     else if (new RegExp("/$").test(window.location.href))
-      setButtonContent("Login");
+      setButtonContent("Sign up");
     else if (store.getState().isLoggedIn) {
       setButtonContent("Log Out");
     }
@@ -85,7 +85,7 @@ const handleClick6 = () => {
 
   return (
     <nav className="navbar-container">
-      <div className="navbar__company-logo"  onClick={handleClick6}>IDEAKART</div>
+      <div className="navbar__company-logo"  onClick={handleClick6}><img onClick={handleClick6} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Ei2DKsEzBYMkyg8ETxUmQAJYhSOIcodYWA&usqp=CAU" alt="" /></div>
       <div className="navbar__btn-container">
         <input className="inPut" placeholder="Search"/>
         <button className="sBtn">Search</button>
@@ -99,12 +99,6 @@ const handleClick6 = () => {
           onClick={handleClick4}>
          Contact
         </h4>
-        {/* <h4 className="navbar__fetch-btn" onClick={handleFetchNormalClick}>
-          Fetch Normal
-        </h4>
-        <h4 className="navbar__fetch-btn" onClick={handleFetchAuthClick}>
-          Fetch Auth
-        </h4> */}
            <h4
           className="navbar__login-signup-logout-btn"
           onClick={handleClick2}>
@@ -113,7 +107,7 @@ const handleClick6 = () => {
         <h4
           className="navbar__login-signup-logout-btn"
           onClick={handleClick}
-        >
+        > 
           {buttonContent}
         </h4>
 

@@ -1,25 +1,30 @@
 .navbar-container {
   display: flex;
-  flex-direction: raw;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
   height: 50px;
-  /* box-shadow: 2px 0px 5px var(--box-shadow-color-1); */
-  background: rgb(40,116,240);
+  width: 100%;
+  background-color: #2874F0;
+  margin-bottom: 0px;
+  border: none;
 
 }
 
-.navbar__company-logo {
-  text-transform: uppercase;
+.navbar__company-logo > img{
+  /* text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
   color:white;
   letter-spacing: 1.2px;
-  cursor: pointer;
-  color:yellow
+  cursor: pointer; */
+  /* color:yellow; */
   /* color: var(--text-color-1); */
-
+  height: 60px;
+  width: 200px;
+  margin-left: 30px;
+  cursor: pointer;
 }
 
 .navbar__btn-container {
@@ -42,16 +47,34 @@ color:white;
 
 .navbar__fetch-btn {
   margin-right: 20px;
-
+ 
 }
 
 .inPut{
-  width:400px;
-  margin-right:-10px;
+  margin-top: 7px;
+   width:300px;
+   border-radius: 4px;
+   height: 30px;
+   
 }
 
 .sBtn{
-  margin-right:250px;
+  margin-right:150px;
   margin-left:.1px;
+  margin-top: 7px;
   width:90px;
+  height: 30px;
+}
+
+.navbar__login-signup-logout-btn{
+  margin-top: 10px;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+ 
+}
+
+.dDown{
+  height: 10px;
+  height: 10px;
 }

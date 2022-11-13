@@ -21,9 +21,10 @@ margin-bottom:20px;
 const Container=styled.div`
 display: grid;
 grid-template-columns: repeat(4,1fr);
-gap:  10px;
+gap:  40px;
 margin:auto;
-width:75%;
+width:80%;
+
 
  img{
      width:100%;
@@ -32,9 +33,9 @@ width:75%;
  }
 
 >div{
-    border:1px solid black;
-   
-
+    border:1px solid grey;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
 
 }
 
@@ -46,7 +47,13 @@ console.log(data.imgUrl)
         <>
         <Head id="h1">
 
-        <H1>Top Reads</H1>
+        <H1   style={{
+        fontFamily: 'inherit',
+        fontWeight: 500,
+        lineHeight: 1.1,
+        
+       
+      }}>Top Reads</H1>
         </Head>
         <Container className="container">
            

@@ -4,14 +4,20 @@
 
 }
 .Get_to{
-    margin-left: -5%;
-    font-size: 15px;
-   
+    font-family: inherit;
+    font-weight: 540;
+    line-height: 1.1;
+    color: inherit;
+    
 }
                
  .footer{
      text-decoration: none;
-     color:#6cb3e4;
+     color: #337ab7;
+     text-decoration: none;
+     font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
  }   
  .footer:hover{
   text-decoration: underline;
