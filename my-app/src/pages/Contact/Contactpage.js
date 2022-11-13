@@ -15,7 +15,7 @@ const handleSubmit = ()=>{
         return (
     
             <form className='container2' onSubmit={handleSubmit}>
-                <p style={{margin: 'auto'}}>You can contact our team by filling this form -</p>
+                <p style={{marginTop:80,textAlign:"center",fontWeight:'normal',marginBottom:20}}>You can contact our team by filling this form -</p>
             
                 
                 <div className='box'>
@@ -55,8 +55,8 @@ const handleSubmit = ()=>{
                 <div className='msg1'>
                     <p>Message*</p>
                     <textarea className='msg2' type='text'
-                  
-                    >Message</textarea>
+                    placeholder='Message For Me *'
+                    ></textarea>
                     <button style={{backgroundColor: 'green', color: 'white', padding: '10px', borderRadius: '5px', marginTop: '10px' }} type='submit'>Send message</button>
                 </div>
             

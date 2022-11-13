@@ -30,11 +30,12 @@
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
+    font-family: Robo;
 }
 
 .input_box {
     width: 500px;
-    height: 20px;
+    height: 40px;
     padding-left: 5px;
 }
 
@@ -48,6 +49,7 @@
 
 .msg2 {
     width: 73pc;
+    height: 70px;
 }
 
 .butt{

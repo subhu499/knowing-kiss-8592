@@ -16,6 +16,8 @@ const Ptag = styled.p`
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    margin-left:100px;
+    margin-right:100px;
 `
 
 function About() {

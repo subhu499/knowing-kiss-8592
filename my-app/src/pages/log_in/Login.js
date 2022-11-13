@@ -70,6 +70,17 @@ const Login = () => {
               {errorMessage && (
                 <p className="login-form__error-message">{errorMessage}</p>
               )}
+             <div className="topping">
+        <input
+          type="checkbox"
+          id="topping"
+          name="topping"
+          value="Remember"
+        
+  
+        />
+        Remember me
+      </div>
               <button type="submit" className="login__submit-btn">
                 Login
               </button>

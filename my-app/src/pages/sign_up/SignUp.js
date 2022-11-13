@@ -94,7 +94,7 @@ const SignUp = () => {
               />
             </div>
             <div className="sign-up-form__password sign-up__input-field">
-              <label htmlFor="sign-up__password">Password</label>
+              <label htmlFor="sign-up__password">Password (6 characters minimum)</label>
               <input
                 type="password"
                 name="password"
@@ -105,7 +105,7 @@ const SignUp = () => {
             </div>
             <div className="sign-up-form__confirm-password sign-up__input-field">
               <label htmlFor="sign-up__confirm-password">
-                Conform Password
+                Confirm Password
               </label>
               <input
                 type="text"

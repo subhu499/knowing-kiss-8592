@@ -21,10 +21,12 @@
   cursor: pointer; */
   /* color:yellow; */
   /* color: var(--text-color-1); */
-  height: 60px;
+  height: 40px;
   width: 200px;
+  margin-top: 4px;
   margin-left: 30px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .navbar__btn-container {
@@ -74,7 +76,3 @@ color:white;
  
 }
 
-.dDown{
-  height: 10px;
-  height: 10px;
-}
