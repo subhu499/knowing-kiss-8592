@@ -1,172 +1,230 @@
 {
-  "product": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+  "products": [
+    { "id":1,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51N6kBmWqzL.jpg",
+      "name": "An American Sickness: How Healthcare Became Big Business and How You Can Take It Back",
+      "price": 873.0,
+      "description1": "Elisabeth Rosenthal's An American Sickness: How Healthcare Became Big Business and How You Can Take It Back",
+      "description2": "A New York Times bestsellerA Washington Post Notable Book of the Year At a moment of drastic political upheaval, An American Sickness is a shocking investigation into our dysfunctional Healthcare system - and offers practical solutions to its myriad problems. In these troubled times, perhaps no institution has unraveled more quickly and more completely than American medicine. In only a few decades, the medical system has been overrun by Organizations seeking to exploit for profit the trust that vulnerable and sick Americans place in their healthcare. Our politicians have proven themselves either unwilling or incapable of reining in the increasingly outrageous costs faced by patients, and market-based solutions only seem to funnel larger and larger sums of our money into the hands of corporations. Impossibly high insurance premiums and inexplicably large bills have become facts of life; fatalism has set in. Very quickly Americans have been made to accept paying more for less. How did things get so bad so fast? Breaking down this monolithic Business into the individual industries—the hospitals, doctors, insurance companies, and drug manufacturers—that together constitute our Healthcare system, Rosenthal exposes the recent evolution of American Medicine as never before. How did healthcare, the caring endeavor, become healthcare, the highly profitable industry? Hospital systems, which are managed by Business executives, behave like predatory lenders, hounding patients and seizing their homes. Research charities are in bed with big pharmaceutical companies, which surreptitiously profit from the donations made by working people. Patients receive bills in code, from entrepreneurial doctors they never even saw.  The system is in tatters, but we can fight back. Dr. Elisabeth Rosenthal doesn't just explain the symptoms, she diagnoses and treats the disease itself. In clear and practical terms, she spells out exactly how to decode medical doublespeak, avoid the pitfalls of the pharmaceuticals racket, and get the care you and your Family deserve. She takes you inside the doctor-patient relationship and to hospital C-suites, explaining step-by-step the workings of a system badly lacking transparency. This is about what we can do, as individual patients, both to navigate the maze that is American Healthcare and also to demand far-reaching reform. An American Sickness is the frontline defense against a Healthcare system that no longer has our well-being at heart."
     },
-    {
-      "productname": "ssssssssssssss",
-      "productex": "sssssssssssssssss",
-      "image": "C:\\fakepath\\pic.jpg.webp",
-      "network": "Offline",
-      "plateform": "SnapDeal",
-      "id": 2
+    { "id":2,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/517Pzeay6CL.jpg",
+      "name": "Bhartiye Thalsena Military Nursing Service Pariksha B.Sc (Nursing) 2020 (Hindi)",
+      "price": 132.0,
+      "description1": "Arihant Experts's Bhartiye Thalsena Military Nursing Service Pariksha B.Sc (Nursing) 2020 (Hindi)",
+      "description2": "Indian Army B.Sc. Nursing is a 4 years course, offered by colleges of Nursing of armed forces medical services. It is only open for female candidates and this time there are 220 seats for admission. Selection of candidates is done through written (computer base) examination, followed by the interview round. The new edition of “Indian Army military Nursing service Examination B.Sc. (Nursing) course 2020” has been designed for the female aspirants, according to the latest pattern of examination. The book gives the complete coverage of the syllabus by dividing the chapters under 7 major sections namely: General Knowledge, logical Reasoning, English, Physics, Biology, Chemistry and current Affairs. Every br>Chapter provides Theory in the form of ‘notes’ for easy grasping and quick understanding of the deep concepts and more than 2500 MCQs are provided in the book, for immediate practice, which are designed as per the questions asked in the examination. Thorough practice done from this book ensures selection in military Nursing service B.Sc. Examination that moves the candidates a step closer to their goals. Table of Contents General Knowledge, logical Reasoning, English, Physics, Biology, Chemistry and current Affairs."
     },
-    {
-      "productname": "logo",
-      "productex": "logo",
-      "image": "C:\\fakepath\\Pink Minimal Typography Logo .png",
-      "network": "Offline",
-      "plateform": "Amazon",
-      "id": 3
+
+    { "id":3,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51A2v2Vjf%2BL.jpg",
+      "name": "GATE Electrical Engineering | GATE 2020 | By Pearson",
+      "price": 647.0,
+      "description1": "Trishna Knowledge Systems's GATE Electrical Engineering | GATE 2020 | By Pearson",
+      "description2": "This book has been prepared by a group of faculties who are highly experienced in training GATE candidates and are also subject matter experts. As a result this book would serve as a one-stop solution for any GATE aspirant to crack the examination. The book is divided into 8 units. Coverage is as per the syllabus prescribed for GATE and topics are handled in a comprehensive manner beginning from the basics and progressing in a step-by-step manner supported by ample number of solved and unsolved problems. Extra care has been taken to present the content in a modular and systematic manner to facilitate easy understanding of all topics."
     },
-    {
-      "image": "https://www.canva.com/design/DAFRXdVw5pU/vvvz9VigbjaIiHRrRPAY8A/edit?utm_content=DAFRXdVw5pU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-      "productname": "logo",
-      "productex": "logo",
-      "network": "Offline",
-      "plateform": "Flipkart",
-      "id": 4
+    { "id":4,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51q3ak1SVaL.jpg",
+      "name": "Barron's AP Microeconomics/Macroeconomics",
+      "price": 949.04,
+      "description1": "Elia Kacapyr's Barron's AP Microeconomics/Macroeconomics",
+      "description2": "This in-depth preparation for both AP Economics exams provides a detailed review of all test topics, including: supply and demand, Theory of consumer choice, market structures, labor resources, monopsony, national income and gross domestic product, Inflation and unemployment, monetary policy, economic growth, international trade and exchange, Interest rate determination, and much more. The book includes two full-length practice tests (one in Microeconomics and one in Macroeconomics) with all test questions answered and explained.BONUS ONLINE PRACTICE TESTS: Students who purchase this book will also get FREE access to two additional full-length Online AP Microeconomics/Macroeconomics tests with all questions answered and explained. These Online exams can be easily accessed by smartphone, tablet, or computer"
     },
-    
-   [
-    {
-      "id": 1,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41P0g9B5WPL.jpg",
-      "title": "Spotify Teardown – Inside the Black Box of Streaming Music (The MIT Press)",
-      "price": 1215.00
+    { "id":5,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51LBTymPneL.jpg",
+      "name": "Science and the Mind of the Maker",
+      "price": 887.0,
+      "description1": "Melissa Cain Travis's Science and the Mind of the Maker",
+      "description2": "Are We an Accident...or Not?The question of cosmic origins and our place in the grand scheme of things has been debated for millennia. Why do we exist? Why does anything exist at all?Today's popular narrative, based on advancements in science, is that it all happened by natural, random processes. Melissa Cain Travis points to powerful evidence that the opposite is true—that cosmology, astronomy, biochemistry, and other disciplines strongly support what she calls The Maker Thesis,which explains the origin, rationality, and intricacy of nature and the human mind's capacity to comprehend it.Our universe is made up of numerous complex Systems of order that both interact and coexist with each other as if in a carefully choreographed dance. Follow along on a fascinating journey about how the structure of nature and the mind of man resonate in ways that point to a Maker who fully intended the astounding discoveries being made in the natural sciences today"
     },
-    {
-      "id": 2,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41XUsMAhdjL.jpg",
-      "title": "Revival from Below – The Deoband Movement and Global Islam",
-      "price": 1983.00
+    { "id":6,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61rptz8VrmL.jpg",
+      "name": "Heidi Heckelbeck Is So Totally Grounded!",
+      "price": 367.0,
+      "description1": "Wanda Coven's Heidi Heckelbeck Is So Totally Grounded!",
+      "description2": "When a cleaning spell goes awry, Heidi gets so totally grounded in the twenty-fourth Heidi Heckelbeck adventure!When Mom asks for help cleaning the house, Heidi takes her magic a little too far. After all, who really wants to deal with all that dust, dirt, and grime? Not Heidi, that’s who! So she creates a cleaning helper named Dusty to do her dirty work. There’s only one problem: Dusty isn’t the most careful cleaner, and when he accidentally breaks Mom’s favorite vase, Heidi gets so totally grounded. With easy-to-read language and illustrations on almost every page, the Heidi Heckelbeck chapter Books are perfect for beginning readers."
     },
-    {
-      "id": 3,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51fFsCikzOL.jpg",
-      "title": "GATE: Geology and Geophysics Exam Guide (Big Size)",
-      "price": 403.00
+
+    { "id":7,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51%2BTwmGbLKL.jpg",
+      "name": "20 Practice Sets IBPS Bank PO/MT Main Exam 2019",
+      "price": 245.0
     },
-    {
-      "id": 4,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51CmccN6bEL.jpg",
-      "title": "Hydroponics DIY: Build your Own Hydroponic Garden Guide for Beginners. Growing System and Equipment for Outdoor and Indoor to Grow Plants, Vegetables, Fruits and Herbs. Food and Nutrients Guide",
-      "price": 1426.00
+    { "id":8,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51mo3YLhSfL.jpg",
+      "name": "SHERAGO™ Pen/Pencil Zipper Pouch for Students, Travelers and School Kids, Multipurpose Box/Case (Girls- Baby Pink Color)",
+      "price": 449.0
     },
-    {
-      "id": 5,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51asSlY6chL.jpg",
-      "title": "Birds New to Science: Fifty Years of Avian Discoveries (Helm Photographic Guides)",
-      "price": 1231.00
+
+    { "id":9,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/31V%2BErNukPL.jpg",
+      "name": "Ghalib",
+      "price": 105.0
     },
-    {
-      "id": 6,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51liCQlBbmL.jpg",
-      "title": "Big Sister, Little Sister, Red Sister",
-      "price": 510.00
+    { "id":10,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41pxEbddmzL.jpg",
+      "name": "Championing Science – Communicating Your Ideas to Decision Makers",
+      "price": 2002.0
     },
-    {
-      "id": 7,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41LmyAm66IL.jpg",
-      "title": "Indian Academy of Pediatrics Infectious Diseases Chapter Clinical Grand Rounds in PEDIATRIC INFECTIOUS DISEASES",
-      "price": 356.00
+    { "id":11,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51jtZl135sL.jpg",
+      "name": "Startup Arabia: Stories and Advice from Top Tech Entrepreneurs in the Arab World",
+      "price": 599.0
     },
-    {
-      "id": 8,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41B5kQcs%2BUL.jpg",
-      "title": "Run for Your Life: Mindful Running for a Happy LifeLabzio 4D Human Brain Model, Mini (10 cm Tall), Dissects Into 17 Parts, A Perfect Learning For Anatomy of Brain, A Fun Learning Model For Kids and Students",
-      "price": 374.00
+    { "id":12,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41DD-8-kktL.jpg",
+      "name": "URBAN INFOTECH Kids DIY Science Project Kit with 32 DIY Experiments, Electromagnetic Set for Kids, Learning and Educational Set with Lights, Motor, Magnets, Compass. Make Your Kid Smart- Age 8+ Years",
+      "price": 399.0
     },
-    {
-      "id": 9,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41I496FUcCL.jpg",
-      "title": "YOGA FOR OBESITY CONTROL (VIDEO CD)",
-      "price": 199.00
+    { "id":13,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61XJZuEK95L.jpg",
+      "name": "Mathematics Analysis and Approaches for the IB Diploma Higher Level (Pearson International Baccalaureate Diploma: International Editions)",
+      "price": 5995.0
     },
-    {
-      "id": 10,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41lcONn1ufL.jpg",
-      "title": "Give Birth Like a Feminist",
-      "price": 1052.00
+    { "id":14,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61EQQdqhcFL.jpg",
+      "name": "World of Flowers: A Colouring Book and Floral Adventure",
+      "price": 479.0
     },
-    {
-      "id": 11,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51w7%2BaI%2BIbL.jpg",
-      "title": "Sreedhareeyam Herbal Baby Kajal",
-      "price": 1719.00
+
+    { "id":15,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41HcvCPTxmL.jpg",
+      "name": "Solar Power – Innovation, Sustainability, and Environmental Justice",
+      "price": 7076.0
     },
-    {
-      "id": 12,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41NP3BRYc-L.jpg",
-      "title": "Agent Running in the Field",
-      "price": 343.00
+    { "id":16,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51r7urib6wL.jpg",
+      "name": "2500 Kms Lost on Road",
+      "price": 200.0
     },
-    {
-      "id": 13,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51lU5VLpKKL.jpg",
-      "title": "Our Father: Reflections on the Lord's Prayer",
-      "price": 307.00
+    { "id":17,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51Lft0yFsnL.jpg",
+      "name": "PGSA2Z Science Project Material kit /Basics in Electricity, Electrical Experiment Material kit,, Science Experiment Activity kit, Electricity Exploration kit.",
+      "price": 399.0
     },
-    
-    {
-      "id": 14,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51qqORCrZKL.jpg",
-      "title": "Dark Souls Remastered Collector's Edition Guide",
-      "price": 1273.00
+    { "id":18,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51toXpqbGbL.jpg",
+      "name": "Pokemon Coloring Book: Coloring Book for Kids and Adults with Fun, Easy, and Relaxing Coloring Pages (Coloring Books for Adults and Kids 2-4 4-8 8-12+)",
+      "price": 579.0
     },
-    {
-      "id": 15,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51caO-qDrOL.jpg",
-      "title": "The Line Becomes A River",
-      "price": 922.00
+    { "id":19,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41HSShi-AJL.jpg",
+      "name": "Gold Leaf Pocket Notepads, Pack of 10 Pcs Small Writing Notepad",
+      "price": 349.0
     },
-    {
-      "id": 16,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51jw-xczI%2BL.jpg",
-      "title": "Trekking in Tajikistan: The northern ranges, Pamirs and Afghanistan's Wakhan Corridor (Cicerone Trekking Guides)",
-      "price": 1680.00
+    { "id":20,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51-JT%2Bd7FyL.jpg",
+      "name": "1200PCS DIY 12 Color 5 MM Funny Hama Beads Craft Beads Colorful Fuse Beads Kit for Kids",
+      "price": 792.66
     },
-    {
-      "id": 17,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51wJ3XOaW3L.jpg",
-      "title": "On Being Human: A Memoir of Waking Up, Living Real, and Listening Hard",
-      "price": 1422.00
+    { "id":21,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41rWJJuUkCL.jpg",
+      "name": "Islam, Authoritarianism, and Underdevelopment: A Global and Historical Comparison",
+      "price": 2455.0
     },
-    {
-      "id": 18,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51wrvmHP6SL.jpg",
-      "title": "ASP.NET For Beginners: The Simple Guide to Learning ASP.NET Web Programming Fast!",
-      "price": 839.00
+    { "id":22,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51soAcjKz-L.jpg",
+      "name": "Eastern Mythology, Encyclopedia of: Legends of the East: the fabulous myths and tales of the heroes, gods and warriors of ancient Egypt, Arabia, Persia, India, Tibet, China and Japan",
+      "price": 338.0
     },
-    {
-      "id": 19,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/51N3OvGn2WL.jpg",
-      "title": "Stalling for Time: My Life as an FBI Hostage Negotiator",
-      "price": 759.00
+    { "id":23,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41voPQMLQcL.jpg",
+      "name": "AsianHobbyCrafts Intelligent Talking Tom Cat with Touch Recording Story Rhymes and Songs (White)",
+      "price": 335.0
     },
-    {
-      "id": 20,
-      "imgUrl":"https://images-eu.ssl-images-amazon.com/images/I/41-ichfjfQL.jpg",
-      "title": "Pitching Ideas: Make People Fall in Love with Your Ideas",
-      "price": 893.00
+    { "id":24,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51tlKsMYFQL.jpg",
+      "name": "MEDICAL PLANTS IN INDUSTRY (QUESTION BANK) (PB 2020)",
+      "price": 334.0
+    },
+    { "id":25,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41dLK78yAEL.jpg",
+      "name": "Scanner-Company Law (CS-Executive) (For June 2019 Exam-New Syllabus)",
+      "price": 300.0
+    },
+    { "id":26,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/615q2pa1yvL.jpg",
+      "name": "Verbal Ability &amp; Comprehension for CAT/XAT/IIFT with 5 Mock Tests",
+      "price": 499.0
+    },
+    { "id":27,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51YLySwuZeL.jpg",
+      "name": "Atlas of Poetic Zoology (The MIT Press)",
+      "price": 1380.0
+    },
+    { "id":28,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51LF1h6hrbL.jpg",
+      "name": "A Textbook of Physics Chemistry for Competitions for JEE (Main &amp; Advanced) &amp; All Other Engineering Entrance Examination (1st Year Programme) (2018 - 2019)",
+      "price": 599.0
+    },
+    { "id":29,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61VJ1GLFeFL.jpg",
+      "name": "10 Minutes Activity Book",
+      "price": 96.0
+    },
+    { "id":30,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51NOTA9dq1L.jpg",
+      "name": "Asterix and the Chieftain&#39;s Daughter: Album 38",
+      "price": 740.0
+    },
+    { "id":31,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51KWCJxSgYL.jpg",
+      "name": "Skyfun 500 Grams Moving Kinetic Universe Sand Tub Play Set Beach Toy Molds Kids Amazing Space Active Magic Gluten Free Clay Sand Dough Tub Box with Tools Toys (500 Grams)",
+      "price": 273.0
+    },
+    { "id":32,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51hKjnFM6iL.jpg",
+      "name": "The Singing Mermaid Sticker Book",
+      "price": 224.0
+    },
+    { "id":33,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61TfKMmqEhL.jpg",
+      "name": "Quill On Spyrosity 3D Model Making Set - Automated Patent Pending Coiling Tool and Mess Free Glue Dot Dispenser- for Girls and Boys Above 7 Years",
+      "price": 1399.0
+    },
+    { "id":34,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51Ma7ZosQ5L.jpg",
+      "name": "Who Let the Frogs Out? (Hardy Boys Clue Book)",
+      "price": 117.85
+    },
+    { "id":35,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61pkJEQgY6L.jpg",
+      "name": "FRATELLI - Pocket Monsters Limited Edition Trading Cards (Sun and Moon Trading Cards Tin Box (Multicolour))",
+      "price": 248.0
+    },
+    { "id":36,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51XUwML9TwL.jpg",
+      "name": "Capitalism in America",
+      "price": 434.0
+    },
+    { "id":37,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51XtOQduLAL.jpg",
+      "name": "The Strength Training Anatomy Workout III: Maximizing Results with Advanced Training Techniques",
+      "price": 1861.0
+    },
+    { "id":38,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51A90aIHkxL.jpg",
+      "name": "6 PCS Japanese Animal Erasers for kids Assorted Set Adorable Cute Animals Toys Educational Gift Party Favors for Boys Girls Childrens",
+      "price": 499.0
+    },
+    { "id":39,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/5105Xg2qLRL.jpg",
+      "name": "AKSH Kids Favorite Birthday Return Gift Unisex Silicone Jelly Slim Digital Led Bracelet Band Watch for Boys &amp; Girls (Set of 8)",
+      "price": 299.0
+    },
+    { "id":40,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51pJLSvK-iL.jpg",
+      "name": "Jigsaw Puzzle (Set of 4 Sets of Board Games) Vegetable and Fruits,Motu Patlu,Mickey Mouse,Tom and Jerry. (First)",
+      "price": 199.0
+    },
+    { "id":41,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51TAEVBY1qL.jpg",
+      "name": "Amulet#04 The Last Council (Graphix)",
+      "price": 495.0
+    },
+    { "id":42,
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51eqnuEdtkL.jpg",
+      "name": "Heidi",
+      "price": 67.0
     }
-
-
-    
   ]
-  
-
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }

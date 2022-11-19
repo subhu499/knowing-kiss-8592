@@ -1,123 +1,147 @@
-import "./navbar.css";
-import Dropdown from 'react-dropdown';
-import 'react-dropdown/style.css';
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { useGlobalContext } from "../contextAPI";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import styled from "styled-components";
+import { Input } from "./Input";
+import { useSelector, useDispatch } from "react-redux";
+import { setAuth, setUser, showSearch } from "../redux/action";
 
-// import Dropdown from "./pages/dropdown/Dropdown"
-const Navbar = () => {
-  //hooks
-  const [buttonContent, setButtonContent] = useState("Login");
-  const { logOutUser, store } = useGlobalContext();
+export const Navbar = () => {
+  const user = useSelector((store) => store.user);
+  const search = useSelector((store) => store.search);
+  const isAuth = useSelector((store) => store.isAuth);
+  // console.log(user);
+
+  const dispatch = useDispatch();
   const navigate = useNavigate();
-  useEffect(() => {
-    if (/login$/.test(window.location.href)) setButtonContent("Sign Up");
-    else if (new RegExp("/$").test(window.location.href))
-      setButtonContent("Sign up");
-    else if (store.getState().isLoggedIn) {
-      setButtonContent("Log Out");
+
+  const teacher = JSON.parse(localStorage.getItem("teacherName"));
+
+  const Nav = styled.div`
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    background: #2874f0;
+    font-family: "Roboto";
+
+    input {
+      width: 380px;
+      height: 32px;
+      margin-top: 8px;
+      border-radius: 3px;
+      border: none;
+      padding-left: 15px;
+      margin-left: 1.2%;
     }
-  }, [window.location.href]);
 
-  //event handlers
-  const handleClick = () => {
-    if (buttonContent === "Login") {
-      navigate("./login", { replace: true });
-    } else if (buttonContent === "Sign Up") {
-      navigate("./signup");
-    } else if (buttonContent === "Log Out") {
-      logOutUser();
-      // navigate("./dropdown")
-      navigate("./login", { replace: true });
-
+    button {
+      width: 60px;
+      height: 34px;
+      margin-top: 8px;
+      margin-left: -0.5%;
+      background-color: white;
+      border: none;
+      border-left: 1px solid black;
+      border-radius: 2px;
+      :hover {
+        background-color: #e0e0e0;
+      }
     }
+  `;
+
+  const logout = () => {
+    alert(`${teacher} logging out`);
+    localStorage.removeItem("teacherName");
+    dispatch(setUser(false));
+    dispatch(setAuth(false));
   };
-
-  const handleClick2 = () => {
-   
-      navigate("./login");
-     
+  const ideaKart = () => {
+    navigate("/products");
+    dispatch(showSearch(false));
   };
-
-  const handleClick3 = () => {
-   
-    navigate("./about");
-  
-};
-const handleClick4 = () => {
-   
-  navigate("./Contactpage");
-  
-
-};
-const options = [
-  'Dashboard', 'Account-Info', 'Notification'
-];
-const handleClick5 = (e)=>{
-  if(e.value==="Dashboard"){
-    navigate("./final");
-    
-  }
-  if(e.value==="Account-Info"){
-    navigate("./accountinfo");
-   
-  }
-  if(e.value==="Notification"){
-    navigate("./Notification");
-   
-  }
-//Notification
-
-  ///accountinfo
-}
-const handleClick6 = () => {   
-  navigate("./");
-};
-
-
-  // const handleFetchNormalClick = () => {
-  //   navigate("./fetch-normal", { replace: true });
-  // };
-  // const handleFetchAuthClick = () => {
-  //   navigate("./fetch-with-auth", { replace: true });
-  // };
 
   return (
-    <nav className="navbar-container">
-      <div className="navbar__company-logo"  onClick={handleClick6}><img onClick={handleClick6} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Ei2DKsEzBYMkyg8ETxUmQAJYhSOIcodYWA&usqp=CAU" alt="" /></div>
-      <div className="navbar__btn-container">
-        <input className="inPut" placeholder="Search"/>
-        <button className="sBtn">Search</button>
-      <h4
-          className="navbar__login-signup-logout-btn"
-          onClick={handleClick3}>
-         About
-        </h4>
-        <h4
-          className="navbar__login-signup-logout-btn"
-          onClick={handleClick4}>
-         Contact
-        </h4>
-           <h4
-          className="navbar__login-signup-logout-btn"
-          onClick={handleClick2}>
-         Login
-        </h4>
-        <h4
-          className="navbar__login-signup-logout-btn"
-          onClick={handleClick}
-        > 
-          {buttonContent}
-        </h4>
+    <div>
+      <Nav>
+        <Link
+          onClick={ideaKart}
+          style={{
+            color: "yellow",
+            textDecoration: "none",
+            marginTop: "15px",
+            marginLeft: "7%",
+            fontSize: "19px",
+          }}
+          to="/"
+        >
+          IDEAKART
+        </Link>
 
-        <Dropdown className='dDown' options={options} value="Dashboard" onChange={handleClick5} />
+        <Input />
 
+        <Link
+          style={{
+            color: "white",
+            textDecoration: "none",
+            marginTop: "15px",
+            marginLeft: "19%",
+          }}
+          to="/about"
+        >
+          About
+        </Link>
+        <Link
+          style={{ color: "white", textDecoration: "none", marginTop: "15px" }}
+          to="/contact"
+        >
+          Contact
+        </Link>
 
-      </div>
-    </nav>
+        {user === false ? (
+          <div style={{ display: "flex", gap: "20px" }}>
+            <Link
+              style={{
+                color: "white",
+                textDecoration: "none",
+                marginTop: "15px",
+              }}
+              to="/signin"
+            >
+              SignIn
+            </Link>
 
+            <Link
+              style={{
+                color: "white",
+                textDecoration: "none",
+                marginTop: "15px",
+              }}
+              to="/signup"
+            >
+              SignUp
+            </Link>
+          </div>
+        ) : (
+          <div style={{ display: "flex", gap: "20px" }}>
+            <p style={{ marginTop: "10px", color: "white" }}>
+              Welcome! <br />
+              {teacher}
+            </p>
+            <button
+              style={{
+                height: "20px",
+                borderRadius: "5px",
+                marginTop: "15px",
+                cursor: "pointer",
+              }}
+              onClick={logout}
+            >
+              Logout
+            </button>{" "}
+          </div>
+        )}
+      </Nav>
+    </div>
   );
 };
-
-export default Navbar;

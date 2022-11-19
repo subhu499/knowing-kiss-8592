@@ -1,9 +1,4 @@
-import React from 'react'
-import styles from './FooterStyles.module.css'
-
-
-
-export const RefundPolicy = () => {
+export const Return = () => {
   return (
     <>
     <div className={styles.Refund_main_div}>
@@ -67,7 +62,6 @@ export const RefundPolicy = () => {
     </div>
 
 
-                       {/* here im importing footer  */}
 
          
     </>
