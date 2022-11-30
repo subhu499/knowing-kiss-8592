@@ -1,9 +1,9 @@
 export const Privacy = ()=>{
     return (
         <div>
-          <div className={styles.Privacy_Main_Div}>
+          <div >
                <div>
-             <h1 className={styles.Privacy_h1}> 
+             <h1 > 
                 Privacy Policy for IdeaKart
              </h1>
           <p>
@@ -11,7 +11,7 @@ export const Privacy = ()=>{
               This privacy policy document describes in detail the types of personal
               information is collected and recorded by www.ideakart.com and how we use it.
           </p>
-          <p className={styles.mainP}>
+          <p >
                  Log Files 
           </p>
           <p>
@@ -24,7 +24,7 @@ export const Privacy = ()=>{
                  and gather demographic information. IP addresses, and other such 
                  information are not linked to any information that is personally identifiable.
           </p>
-          <p className={styles.mainP}>
+          <p >
                  Cookies and Web Beacons
           </p>
           <p>
@@ -33,7 +33,7 @@ export const Privacy = ()=>{
                  and to personalize or customize our web page content based upon visitors'
                  browser type or other information that the visitor sends via their browser.
           </p>
-          <p className={styles.mainP}>
+          <p >
                  DoubleClick DART Cookie
           </p>
           <p>
@@ -50,7 +50,7 @@ export const Privacy = ()=>{
           <p>
                  http://www.google.com/privacy_ads.html
           </p>
-          <p className={styles.mainP}>
+          <p >
                   Our Advertising Partners
           </p>
           <p>
@@ -82,7 +82,7 @@ export const Privacy = ()=>{
                  www.ideakart.com has no access to or control over these cookies that are used by third-party 
                  advertisers.
           </p>
-          <p className={styles.mainP}>
+          <p >
                  Third Party Privacy Policies
           </p>
           <p>
@@ -96,7 +96,7 @@ export const Privacy = ()=>{
                  More detailed information about cookie management with specific web browsers can be
                  found at the browsers' respective websites.
           </p>
-          <p className={styles.mainP}>
+          <p >
                  Children's Information
           </p>
           <p>
@@ -109,7 +109,7 @@ export const Privacy = ()=>{
                  contact in the first paragraph) and we will use our best efforts to promptly remove such 
                  information from our record
           </p>
-          <p className={styles.mainP}>
+          <p >
                  Online Privacy Policy Only
           </p>
           <p>
@@ -118,7 +118,7 @@ export const Privacy = ()=>{
                  does not apply to any information collected offline or via channels other than this
                  website.
           </p>
-          <p className={styles.mainP}>
+          <p >
                  Consent
           </p>
           <p>

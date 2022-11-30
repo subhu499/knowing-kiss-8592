@@ -13,10 +13,10 @@ export const Footer = ()=>{
 
     return <FooterDiv>
         <p>Get To Know Us</p>
-        <Link style={{textDecoration:"none"}} to="/About"><li>About</li></Link>
+        <Link style={{textDecoration:"none"}} to="/about"><li>About</li></Link>
         <Link style={{textDecoration:"none"}} to="/contact"><li>Contact</li></Link>
         <Link style={{textDecoration:"none"}} to="/Privacy"><li>Privacy Policy</li></Link>
-        <Link style={{textDecoration:"none"}} to="/Return"><li>Return Policy</li></Link>
+        <Link style={{textDecoration:"none"}} to="/Return"> <li>Return Policy </li></Link>
         <Link style={{textDecoration:"none"}} to="/earn"><li>Earn Money Online</li></Link>
     </FooterDiv>
 }

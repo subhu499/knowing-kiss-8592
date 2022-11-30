@@ -9,15 +9,16 @@ export const Contact = () => {
   `;
   const Div = styled.div`
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-repeat: no-repeat;
+    border: 1px solid black;
     background-size: cover;
     padding-top: 1%;
-    background-image: url(https://ideakart.com/assets/youridea-23d18c0fab7feb4d66e4c1dbc419428c71b2014ff742fc52b4006f6b65af6b67.jpg);
+    background-image: url(https://images.pexels.com/photos/1031588/pexels-photo-1031588.jpeg?auto=compress&cs=tinysrgb&w=600);
   `;
   return (
     <Div>
-      <p>You can contact our team by filling this form -</p>
+      <p   style={{  fontSize:"30px" , color:"green"}} >You can contact our team by filling this form -</p>
       <form
         action="https://formcarry.com/s/-1oBIfFBS0t"
         method="POST"
